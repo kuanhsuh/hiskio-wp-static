@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss ./tailwind.css -o ./tailwind-prod.css",
+    "watch": "postcss ./tailwind.css -o ./tailwind-prod.css --watch"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^1.2.0",
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1"
+  }
+}
