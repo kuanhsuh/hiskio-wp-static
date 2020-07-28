@@ -2436,24 +2436,3 @@ footer p.sucess-message {
   background: #fa6262;
   color: #fff;
 }
-
-
-/* Search Feature */
-
-
-.search-result {
-  width: 350px;
-}
-
-.search-icon {
-  width: 50px;
-  height: 50px;
-}
-
-.mw-none {
-  max-width: none;
-}
-
-#searchInput {
-  width: 350px;
-}
